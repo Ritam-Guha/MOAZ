@@ -1,0 +1,4114 @@
+def Setup():
+  s2 = -0.124345
+  s2 = -0.785878
+  s1 = 0.966004
+  s2 = s1 - s3
+  s3 = s1 * s2
+  s2 = s2 * s3
+def Predict():
+  s3 = heaviside(s0, 1.0)
+  s1 = s2 - s0
+  v2 = v2 + v0
+  s2 = -0.978008
+  s3 = dot(v0, v2)
+  s3 = -0.601269
+  s2 = dot(v1, v0)
+  v1 = v0 + v1
+  s1 = s3 - s2
+  s2 = heaviside(s2, 1.0)
+def Learn():
+  s2 = dot(v0, v2)
+  s1 = dot(v2, v1)
+  v1 = s2 * v2
+  s3 = s1 * s0
+  v2 = s3 * v1
+  s2 = s0 * s2
+  s1 = dot(v0, v2)
+  v1 = v0 + v1
+  s1 = dot(v1, v2)
+  s2 = dot(v0, v0)
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+  s1 = s3 * s0
+  v2 = s1 * v1
+  s1 = s0 / s3
+  s2 = s0 - s1
+  s3 = exp(s0)
+  v2 = bcast(s2)
+  s1 = dot(v0, v1)
+  s3 = sin(s0)
+  s3 = 0.452378
+  v2 = v1 + v0
+def Learn():
+  s1 = dot(v1, v1)
+  s3 = s3 * s2
+  s3 = s1 - s3
+  v1 = v1 + v1
+  v1 = v1 + v2
+  v1 = v1 + v0
+  s2 = 0.785542
+  v2 = v1 + v2
+  s2 = dot(v1, v1)
+  s1 = dot(v0, v2)
+  v2 = v0 + v0
+
+def Setup():
+  s2 = 0.93457
+  s1 = s3 - s2
+  s3 = s2 * s0
+  s2 = -0.123151
+  s3 = dot(v2, v1)
+  v1 = s1 * v2
+def Predict():
+  s2 = cos(s0)
+  s2 = log(s0)
+  s1 = exp(s1)
+  s3 = abs(s3)
+  s1 = exp(s2)
+  s1 = dot(v0, v2)
+  s3 = exp(s3)
+  s2 = exp(s2)
+  s3 = s1 / s0
+  s2 = -0.209242
+def Learn():
+  s1 = 0.695943
+  s3 = s3 * s0
+  s2 = s1 - s1
+  s3 = s0 * s3
+  s2 = s3 * s1
+  s3 = 0.462459
+  s2 = -0.472167
+  v2 = v0 + v2
+  s1 = s0 * s0
+
+def Setup():
+def Predict():
+  s1 = heaviside(s1, 1.0)
+  s1 = dot(v1, v0)
+  v2 = bcast(s1)
+def Learn():
+  v1 = v0 + v0
+  s1 = -0.869752
+  v1 = v0 + v2
+  v2 = v0 + v1
+  s1 = dot(v0, v0)
+
+def Setup():
+  s1 = 0.846073
+def Predict():
+  v1 = v1 + v0
+  s1 = dot(v0, v2)
+def Learn():
+  v2 = v2 + v1
+  v1 = s1 * v1
+  v1 = v0 + v2
+  s1 = s0 * s1
+  s1 = s1 - s0
+
+def Setup():
+def Predict():
+  s3 = cos(s2)
+  s3 = minimum(s0, s3)
+  s3 = log(s3)
+  s2 = log(s0)
+  s3 = cos(s1)
+  s2 = log(s2)
+  s2 = exp(s3)
+  s1 = s3 - s1
+  s3 = heaviside(s2, 1.0)
+def Learn():
+  s2 = 0.19562
+  s3 = s2 - s0
+  s3 = 0.556632
+  s3 = -0.96723
+
+def Setup():
+def Predict():
+  s1 = s0 - s1
+def Learn():
+  s1 = 0.625459
+
+def Setup():
+  s2 = 0.284134
+def Predict():
+  s3 = cos(s2)
+  s2 = exp(s1)
+  s1 = heaviside(s3, 1.0)
+  s3 = abs(s3)
+  s2 = abs(s2)
+def Learn():
+  s2 = s2 - s1
+  s3 = s3 * s1
+  s3 = -0.263921
+  s3 = s0 * s3
+  s3 = s2 * s3
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+def Learn():
+
