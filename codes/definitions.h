@@ -145,7 +145,7 @@ constexpr double kMaxFitness = 1.0;
 ////////////////////////////////////////////////////////////////////////////////
 
 //skelly, required for intron removal
-constexpr bool SKIP_INTRONS = false;
+constexpr bool SKIP_INTRONS = true;
 constexpr uint8_t NUM_MEMORY_TYPES = 3;
 constexpr uint8_t SCALAR_TYPE = 0;
 constexpr uint8_t VECTOR_TYPE = 1;

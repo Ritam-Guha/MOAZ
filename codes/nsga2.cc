@@ -205,9 +205,7 @@ namespace automl_zero {
       const IntegerT start_train_steps = evaluator_->GetNumTrainStepsCompleted();
 
       // Saving the data in a file to create the pf movement animation.
-      std::ofstream outfile(out_folder_+"pf_animation_output.txt", std::ofstream::out);
-      std::ofstream outfile_hv(out_folder_+"HV_change_exp.txt", std::ofstream::out);
-      std::ofstream outfile_survival(out_folder_+"survival_exp.txt", std::ofstream::out);
+      std::ofstream outfile(out_folder_+"/pf_animation_output.txt", std::ofstream::out);
 
       // Vectors for holding child population and fitness.
       std::vector<std::shared_ptr<const Algorithm>> child_population;
@@ -269,7 +267,7 @@ namespace automl_zero {
        });
       
       for(auto cur_fitness: best_front_fitness){
-         hv_val += (ref_point_copy.first - cur_fitness.first[0]) * (ref_point_copy.second - cur_fitness.second[0]);
+         hv_val += bracket_operation(ref_point_copy.first - cur_fitness.first[0]) * bracket_operation(ref_point_copy.second - cur_fitness.second[cur_fitness.second.size()-1]);
          ref_point_copy.first = cur_fitness.first[0];
       }
 
@@ -331,7 +329,7 @@ namespace automl_zero {
       std::ofstream outfile_hv(hv_file, std::ios_base::app);
       std::ofstream outfile_survival(survive_file, std::ios_base::app);
 
-      outfile_hv << evaluator_->GetNumTrainStepsCompleted() << "," << compute_HV(merged_fitness, std::pair<double, double>(501, 1.1)) << std::endl;
+      outfile_hv << evaluator_->GetNumTrainStepsCompleted() << "," << compute_HV(merged_fitness, std::pair<double, double>(max_allowed_error_+0.1, max_allowed_complexity_+1)) << std::endl;
       outfile_survival << evaluator_->GetNumTrainStepsCompleted() << "," << survived_frac << std::endl; 
 
       // check if a better error is found.
@@ -703,7 +701,6 @@ namespace automl_zero {
       double cv_1 = bracket(fitness_1.second[0] - max_allowed_complexity_) + bracket(fitness_1.first[0] - max_allowed_error_) + bracket(min_allowed_complexity_ - fitness_1.second[0]) + bracket(min_allowed_error_ - fitness_1.first[0]);
       double cv_2 = bracket(fitness_2.second[0] - max_allowed_complexity_) + bracket(fitness_2.first[0] - max_allowed_error_) + bracket(min_allowed_complexity_ - fitness_2.second[0]) + bracket(min_allowed_error_ - fitness_2.first[0]);
       IntegerT complexity_comparison = compare_complexity(fitness_1.second, fitness_2.second);
-      // std::cout << "CV 1: " << cv_1 << " CV 2: " << cv_2 << std::endl;
 
       if (cv_1 == 0 && cv_2 == 0){
          // when both are feasible

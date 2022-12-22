@@ -133,7 +133,7 @@ namespace automl_zero {
         IntegerT max_mut = 5;
         double cross_prob = 0;
         bool crossover = false;
-        double max_complexity = 500;
+        double max_complexity = 100;
         double max_error = 1;
         double min_complexity = 0;
         double min_error = 0;
@@ -204,6 +204,13 @@ namespace automl_zero {
                 intron_type + "/seed_" + std::to_string(random_seed);
         std::cout << cur_output_folder << std::endl;
         std::filesystem::create_directory(cur_output_folder);
+
+        if(crossover)
+            cur_output_folder += "/cross_mut";
+        else
+            cur_output_folder += "/mut";
+        std::filesystem::create_directory(cur_output_folder);
+
         // output_folder += ;
 
         while (true) {
@@ -287,16 +294,15 @@ namespace automl_zero {
         std::ofstream outfile_final_pf_train(cur_output_folder + "/final_pf_train.txt", std::ofstream::out);
         std::ofstream outfile_final_pf_test(cur_output_folder + "/final_pf_test.txt", std::ofstream::out);
         std::ofstream outfile_final_pf_algos(cur_output_folder + "/final_pf_algos.txt", std::ofstream::out);
+        std::ofstream outfile_final_pf_algos_eff(cur_output_folder + "/final_pf_algos_eff.txt", std::ofstream::out);
         cout << "Experiment done. Retrieving candidate algorithm." << endl;
 
         // Get the final train set results.
         for(auto it = pf.begin(); it != pf.end(); it++){
             std::cout << "Error: " << it->second.first[0] << ", Std: " << it->second.first[1] << ", Complexity: " << it->second.second[0] << std::endl;
             outfile_final_pf_train << it->second.first[0] << ", " << it->second.second[0] << std::endl;
-            if(intron_removal)
-                outfile_final_pf_algos << it->first->ToReadableEffective() << std::endl;
-            else
-                outfile_final_pf_algos << it->first->ToReadable() << std::endl;
+            outfile_final_pf_algos_eff << it->first->ToReadableEffective() << std::endl;
+            outfile_final_pf_algos << it->first->ToReadable() << std::endl;
         }
 
         // Do a final evaluation on unseen tasks.
@@ -318,7 +324,7 @@ namespace automl_zero {
         std::vector<std::pair<std::vector<double>, std::vector<double>>> test_fitness;
         std::pair<std::vector<double>, std::vector<double>> cur_fitness;
 
-        outfile_prog << "Total time required: " << time_requirement << std::endl;
+        outfile_prog << "Total time required: " << time_requirement << ", first time feasible solution: " << first_time_feasible_soln << std::endl;
         for(auto it = pf.begin(); it != pf.end(); it++){
             cur_fitness = final_evaluator.EvaluateMulti(*(it->first));
             double algorithm_complexity = compute_complexity(it->first, intron_removal);
@@ -336,10 +342,9 @@ namespace automl_zero {
     }
 
     void run(){
-        std::string objective_type = "multi_objective";
         std::string type_problem = "linear_regression";
         std::string problem_name = "scalar_linear_regression";
-        bool intron_removal = true;
+        bool intron_removal = false;
         std::string output_folder = "/home/ritz/Projects/coin_lab/moaz/outputs/";
         run_NSGA2(type_problem, problem_name, intron_removal, output_folder);
     }

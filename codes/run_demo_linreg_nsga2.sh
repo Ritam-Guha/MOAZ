@@ -29,7 +29,7 @@ bazel run --sandbox_debug -c opt \
     search_tasks { \
       tasks { \
         scalar_linear_regression_task {} \
-        features_size: 8 \
+        features_size: 4 \
         num_train_examples: 100 \
         num_valid_examples: 100 \
         num_tasks: 10 \
@@ -44,7 +44,7 @@ bazel run --sandbox_debug -c opt \
     predict_size_init: 2 \
     fec {num_train_examples: 10 num_valid_examples: 10} \
     fitness_combination_mode: MULTI_OBJECTIVE \
-    population_size: 12 \
+    population_size: 20 \
     tournament_size: 10 \
     initial_population: RANDOM_ALGORITHM \
     max_train_steps: 200000000 \

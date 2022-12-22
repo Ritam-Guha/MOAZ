@@ -289,21 +289,18 @@ namespace automl_zero {
 
         // Open separate files to store the output.
         std::ofstream outfile_prog(output_folder + "/final_program_descriptions.txt", std::ofstream::out);
+        std::ofstream outfile_prog_eff(output_folder + "/final_program_descriptions_eff.txt", std::ofstream::out);
         outfile_prog << "Total time required: " << time_requirement << ", first time feasible solution: " << first_time_feasible_soln << std::endl;
         // Provide the evaluation metrics on train and test data.
-        intron_removal = true;
         double algorithm_complexity = compute_complexity(best_algo, intron_removal);
 
         outfile_prog << "Complexity: " << algorithm_complexity << ", Training Error: " << train_error << ", Test Error: " << final_evaluator.EvaluateSingle(*best_algo) << std::endl;
-        if(intron_removal)
-            outfile_prog << best_algo->ToReadableEffective() << std::endl;
-        else
-            outfile_prog << best_algo->ToReadable() << std::endl;
+        outfile_prog << best_algo->ToReadable() << std::endl;
+        outfile_prog_eff << best_algo->ToReadableEffective() << std::endl;
     }
 
 
     void run(){
-        std::string objective_type = "single_objective";
         std::string type_problem = "linear_regression";
         std::string problem_name = "scalar_linear_regression";
         bool intron_removal = false;

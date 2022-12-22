@@ -98,45 +98,26 @@ namespace automl_zero {
       return num_individuals_ - start_individuals;
    }
 
-   IntegerT RegularizedEvolution::Run(const IntegerT max_train_steps,
-         const IntegerT max_nanos) {
-      CHECK(initialized_) << "RegularizedEvolution not initialized."
-         << std::endl;
-      const IntegerT start_nanos = GetCurrentTimeNanos();
-      const IntegerT start_train_steps = evaluator_->GetNumTrainStepsCompleted();
-      while (evaluator_->GetNumTrainStepsCompleted() - start_train_steps <
-            max_train_steps &&
-            GetCurrentTimeNanos() - start_nanos < max_nanos) {
-
-         // cout << endl << "Parent Population" << endl;
-         // for (int i=0; i<int(population_size_); i++) {
-         //   	  cout << fitnesses_[i] << endl;
-         //     }
-
-         vector<double>::iterator next_fitness_it = fitnesses_.begin();
-         for (shared_ptr<const Algorithm>& next_algorithm : algorithms_) {
-            // cout << endl << "Parent Fitness: " << Execute(next_algorithm) << endl;
-            SingleParentSelect(&next_algorithm);
-            mutator_->Mutate(1, &next_algorithm);
-
-            // Set effective instructions
-            auto mutated = make_unique<Algorithm>(*next_algorithm);
-            (mutated.get())->SetEffectiveInstructions();
-            (&next_algorithm)->reset(mutated.release());
-
-            // cout << "Child Fitness: " << Execute(next_algorithm) << endl;
-            *next_fitness_it = Execute(next_algorithm);
-            ++next_fitness_it;
-         }
-
-         // cout << endl << "Child Population" << endl;
-         // 	  for (shared_ptr<const Algorithm>& next_algorithm : algorithms_) {
-         // 		  	  cout << Execute(next_algorithm) << endl;
-         // 	      }
-         MaybePrintProgress();
-      }
-      return evaluator_->GetNumTrainStepsCompleted() - start_train_steps;
-   }
+    IntegerT RegularizedEvolution::Run(const IntegerT max_train_steps,
+                                       const IntegerT max_nanos) {
+        CHECK(initialized_) << "RegularizedEvolution not initialized."
+                            << std::endl;
+        const IntegerT start_nanos = GetCurrentTimeNanos();
+        const IntegerT start_train_steps = evaluator_->GetNumTrainStepsCompleted();
+        while (evaluator_->GetNumTrainStepsCompleted() - start_train_steps <
+               max_train_steps &&
+               GetCurrentTimeNanos() - start_nanos < max_nanos) {
+            vector<double>::iterator next_fitness_it = fitnesses_.begin();
+            for (shared_ptr<const Algorithm>& next_algorithm : algorithms_) {
+                SingleParentSelect(&next_algorithm);
+                mutator_->Mutate(1, &next_algorithm);
+                *next_fitness_it = Execute(next_algorithm);
+                ++next_fitness_it;
+            }
+            MaybePrintProgress();
+        }
+        return evaluator_->GetNumTrainStepsCompleted() - start_train_steps;
+    }
 
    IntegerT RegularizedEvolution::NumIndividuals() const {
       return num_individuals_;
