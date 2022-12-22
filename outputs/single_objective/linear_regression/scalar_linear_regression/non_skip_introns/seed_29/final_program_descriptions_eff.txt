@@ -1,0 +1,28 @@
+def Setup():
+  s2 = 0.751175
+  s2 = -0.691015
+  s3 = 0.846956
+  s2 = 0.105245
+def Predict():
+  v2 = v0 + v1
+  v2 = v2 + v1
+  s1 = dot(v1, v0)
+  v2 = v1 + v2
+  v1 = v1 + v1
+  v2 = v2 + v1
+  v1 = s1 * v2
+  v1 = v2 + v1
+  s1 = s1 * s3
+  v1 = s2 * v1
+def Learn():
+  v2 = s3 * v0
+  v1 = v0 + v0
+  v1 = s2 * v1
+  s1 = dot(v2, v1)
+  v2 = s1 * v2
+  s1 = dot(v1, v2)
+  s1 = s1 - s2
+  s1 = s0 - s1
+  s3 = s2 - s3
+  v1 = s1 * v1
+

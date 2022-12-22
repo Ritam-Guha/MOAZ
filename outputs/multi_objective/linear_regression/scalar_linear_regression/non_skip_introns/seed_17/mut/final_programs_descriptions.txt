@@ -1,0 +1,431 @@
+Total time required: 63.001, first time feasible solution: 29460
+Complexity: 37 Training Error: 0.64005, Std: 0.130265, Test Error: 0.705108
+def Setup():
+  s2 = -0.418743
+  s1 = s1 - s3
+  s2 = s2 - s0
+  s2 = s0 - s2
+  s2 = s3 - s0
+  s1 = s0 - s1
+  s2 = s2 - s2
+def Predict():
+  v2 = s3 * v2
+  s1 = dot(v2, v0)
+  v2 = s1 * v0
+  v2 = v0 + v2
+  v2 = v2 + v0
+  s3 = 0.102487
+def Learn():
+  s2 = s3 * s0
+  s2 = 0.960377
+  s2 = s2 * s3
+  s2 = s3 - s1
+  s2 = -0.67946
+
+
+Complexity: 15 Training Error: 0.640347, Std: 0.129385, Test Error: 0.696889
+def Setup():
+  s2 = s0 - s0
+  s2 = s2 * s3
+  s2 = s0 * s2
+  s1 = s1 * s1
+  s2 = s2 * s2
+def Predict():
+  s3 = s1 * s0
+  s2 = s3 - s1
+  s2 = -0.106855
+  s2 = -0.00539722
+  s3 = 0.779724
+def Learn():
+  s2 = s2 * s2
+  s3 = 0.6672
+  s2 = s3 * s3
+  s3 = s2 - s3
+  s3 = s2 * s3
+
+
+Complexity: 31 Training Error: 1.43161e-05, Std: 1.14864e-05, Test Error: 0
+def Setup():
+  s2 = s0 * s0
+  s2 = s1 - s1
+  s3 = s3 - s1
+  s2 = s0 * s0
+  s2 = s3 * s1
+def Predict():
+  v2 = s2 * v2
+  v1 = v2 + v1
+  s1 = dot(v1, v0)
+  s3 = s2 - s0
+  s2 = 0.226047
+def Learn():
+  s2 = 0.18949
+  s3 = s2 - s1
+  s1 = s0 - s1
+  v2 = s1 * v0
+  s3 = s0 * s0
+
+
+Complexity: 28 Training Error: 0.221198, Std: 0.11177, Test Error: 0.962042
+def Setup():
+  s3 = s3 * s3
+  s3 = s2 * s1
+  s3 = s3 * s3
+  s3 = s2 * s2
+  s2 = 0.316442
+def Predict():
+  s2 = 0.0100291
+  s3 = s2 * s1
+  s3 = s0 * s1
+  s1 = -26.1323
+  s1 = dot(v1, v0)
+def Learn():
+  s1 = s2 * s0
+  v2 = s1 * v0
+  v1 = v1 + v2
+  s3 = s1 - s2
+  s3 = -0.390016
+
+
+Complexity: 28 Training Error: 0.221168, Std: 0.111807, Test Error: 0.962043
+def Setup():
+  s2 = s1 * s0
+  s3 = s2 * s0
+  s2 = s1 - s2
+  s3 = s0 - s0
+  s1 = s0 - s0
+def Predict():
+  s1 = s1 - s1
+  s2 = 0.0100291
+  s3 = 0.00543727
+  s1 = dot(v1, v0)
+  s1 = s1 - s3
+def Learn():
+  s1 = s2 * s0
+  s3 = s1 - s0
+  v2 = s1 * v0
+  v1 = v2 + v1
+  s1 = s0 - s2
+
+
+Complexity: 28 Training Error: 0.000238041, Std: 0.000324367, Test Error: 7.32747e-15
+def Setup():
+  s2 = s2 - s3
+  s3 = s3 * s0
+  s2 = -0.0305887
+  s2 = s0 * s0
+  s1 = s1 * s1
+def Predict():
+  v2 = v2 + v1
+  s2 = s1 * s0
+  s1 = dot(v2, v0)
+  s3 = 0.18754
+  s1 = s3 * s1
+def Learn():
+  s2 = -0.0479072
+  s3 = s0 - s1
+  s2 = s0 - s1
+  v1 = s3 * v0
+  s2 = -0.626987
+
+
+Complexity: 34 Training Error: 0.491752, Std: 0.212464, Test Error: 0.628769
+def Setup():
+  s2 = 0.0319363
+  s2 = s2 * s0
+  s2 = s1 * s0
+  s2 = s1 - s1
+  s2 = s3 * s3
+def Predict():
+  s2 = s1 - s0
+  s1 = dot(v1, v0)
+  s2 = s2 - s0
+  s2 = s2 * s3
+  s3 = s1 - s0
+def Learn():
+  v2 = s0 * v0
+  s1 = 0.352852
+  v2 = v1 + v2
+  v2 = v1 + v2
+  v1 = s1 * v2
+
+
+Complexity: 34 Training Error: 0.491752, Std: 0.212464, Test Error: 0.628769
+def Setup():
+  s2 = s2 - s2
+  s2 = s2 * s0
+  s2 = s1 * s0
+  s1 = s3 - s1
+  s2 = s3 * s3
+def Predict():
+  s2 = s1 - s0
+  s1 = dot(v1, v0)
+  s2 = s2 - s0
+  s2 = s2 * s3
+  s3 = s1 - s0
+def Learn():
+  v2 = s0 * v0
+  s1 = 0.352852
+  v2 = v1 + v2
+  v2 = v1 + v2
+  v1 = s1 * v2
+
+
+Complexity: 31 Training Error: 0.636448, Std: 0.133922, Test Error: 0.698573
+def Setup():
+  s1 = s1 - s3
+  s2 = s2 - s2
+  s2 = s0 - s2
+  s2 = s3 - s0
+  s2 = s2 - s2
+def Predict():
+  v2 = s3 * v2
+  s1 = dot(v2, v0)
+  v2 = s1 * v0
+  v2 = v2 + v0
+  s3 = 0.102487
+def Learn():
+  s3 = s3 * s0
+  s2 = 0.960377
+  s2 = s2 * s3
+  s2 = s3 - s1
+  s2 = -0.67946
+
+
+Complexity: 29 Training Error: 0.600581, Std: 0.155614, Test Error: 0.673327
+def Setup():
+  v1 = v2 + v1
+  s3 = s3 - s1
+  s1 = s1 * s3
+  s3 = s2 - s1
+  s1 = s3 - s0
+def Predict():
+  s1 = dot(v1, v0)
+  s3 = 0.223005
+  s2 = s3 * s0
+  s1 = s3 * s1
+  s3 = -3.16707
+def Learn():
+  s2 = 0.0814898
+  s2 = s3 - s3
+  s2 = s0 * s1
+  v1 = s0 * v0
+  s2 = -3.02221
+  s2 = s3 * s3
+
+
+Complexity: 31 Training Error: 0.570301, Std: 0.176836, Test Error: 0.693125
+def Setup():
+  s2 = s2 - s3
+  s3 = s2 - s3
+  s1 = s2 - s2
+  s2 = s2 * s1
+  s3 = s3 - s2
+def Predict():
+  s1 = dot(v1, v0)
+  s3 = s2 - s3
+  s2 = s1 - s1
+  s3 = s1 * s3
+  s3 = s1 - s3
+def Learn():
+  v2 = s0 * v0
+  s1 = 0.39456
+  s3 = -6.22364
+  v2 = v1 + v2
+  v1 = s1 * v2
+
+
+Complexity: 33 Training Error: 0.637066, Std: 0.133467, Test Error: 0.698328
+def Setup():
+  s1 = s1 - s1
+  v1 = v2 + v1
+  s2 = s1 * s0
+  s1 = s2 - s0
+  s2 = s3 - s0
+  s2 = s0 - s3
+  s1 = s3 - s1
+def Predict():
+  s1 = s0 - s0
+  v2 = s3 * v2
+  s1 = dot(v2, v0)
+  v2 = v2 + v0
+  s3 = 0.102487
+def Learn():
+  s3 = s3 * s0
+  s2 = s2 * s1
+  s1 = s3 - s1
+  s2 = -2.25146
+  s2 = s0 * s3
+
+
+Complexity: 45 Training Error: 0.636639, Std: 0.134157, Test Error: 0.698674
+def Setup():
+  s2 = -0.418743
+  s1 = s1 - s3
+  s2 = s2 - s0
+  s2 = s0 - s2
+  s2 = s3 - s0
+  s1 = s0 - s1
+  s2 = s2 - s2
+def Predict():
+  v2 = s3 * v2
+  s1 = dot(v2, v0)
+  v2 = s1 * v0
+  v2 = v0 + v2
+  v2 = v2 + v1
+  s3 = 0.102487
+def Learn():
+  s2 = s3 * s0
+  s2 = 0.960377
+  s2 = dot(v1, v0)
+  s2 = s2 * s3
+  s2 = s3 - s1
+  s2 = -0.67946
+
+
+Complexity: 24 Training Error: 0.639427, Std: 0.130511, Test Error: 0.743256
+def Setup():
+  s2 = s2 - s3
+  s1 = s2 * s3
+  s3 = s0 - s1
+  s1 = s1 - s3
+  s1 = s3 * s3
+def Predict():
+  s2 = 3.86107
+  s3 = -0.926651
+  s1 = s3 * s1
+  s3 = s1 * s1
+  s2 = 0.31837
+def Learn():
+  s3 = s0 - s3
+  s1 = s2 * s3
+  v1 = s3 * v1
+  v1 = s3 * v0
+  v1 = v1 + v1
+
+
+Complexity: 28 Training Error: 0.000238041, Std: 0.000324367, Test Error: 7.32747e-15
+def Setup():
+  s2 = s2 - s3
+  s3 = s3 * s0
+  s2 = -0.0305887
+  s1 = s0 * s0
+  s1 = s1 * s0
+def Predict():
+  v2 = v2 + v1
+  s3 = s1 * s0
+  s1 = dot(v2, v0)
+  s3 = 0.18754
+  s1 = s3 * s1
+def Learn():
+  s2 = -0.00880247
+  s3 = s0 - s1
+  s2 = s0 - s2
+  v1 = s3 * v0
+  s2 = -1.17267
+
+
+Complexity: 31 Training Error: 0.636448, Std: 0.133922, Test Error: 0.698573
+def Setup():
+  s1 = s1 - s3
+  s2 = s2 - s2
+  s2 = s0 - s2
+  s2 = s3 - s0
+  s2 = s2 - s2
+def Predict():
+  v2 = s3 * v2
+  s1 = dot(v2, v0)
+  v2 = s1 * v0
+  v2 = v2 + v0
+  s3 = 0.102487
+def Learn():
+  s3 = s3 * s0
+  s2 = 0.960377
+  s2 = s2 * s3
+  s2 = s3 - s1
+  s2 = -0.67946
+
+
+Complexity: 18 Training Error: 0.640303, Std: 0.129488, Test Error: 0.696908
+def Setup():
+  s3 = s0 * s0
+  s2 = s3 - s2
+  s3 = s2 * s3
+  s3 = s1 - s3
+  s3 = s3 * s2
+def Predict():
+  s1 = 0.0148435
+  s3 = s2 * s0
+  s3 = s0 * s0
+  s3 = -13.2161
+  s3 = 0.0566637
+def Learn():
+  s2 = s2 * s2
+  v1 = v1 + v2
+  s3 = 3054.47
+  s3 = -0.200333
+  s3 = s2 * s2
+
+
+Complexity: 34 Training Error: 0.491752, Std: 0.212464, Test Error: 0.628769
+def Setup():
+  s2 = s2 - s2
+  s2 = s2 * s0
+  s2 = s1 * s0
+  s1 = s1 - s1
+  s2 = s3 * s3
+def Predict():
+  s2 = s1 - s0
+  s1 = dot(v1, v0)
+  s2 = s2 - s0
+  s2 = s2 * s3
+  s3 = s1 - s0
+def Learn():
+  v2 = s0 * v0
+  s1 = 0.352852
+  v2 = v1 + v2
+  v2 = v1 + v2
+  v1 = s1 * v2
+
+
+Complexity: 36 Training Error: 0.639767, Std: 0.130994, Test Error: 0.699114
+def Setup():
+  s3 = s1 - s0
+  v1 = s0 * v1
+  s1 = s1 * s0
+  s3 = s0 - s0
+  v1 = s2 * v2
+def Predict():
+  s3 = -0.882729
+  v1 = s2 * v1
+  v1 = s1 * v2
+  s1 = s3 * s1
+  s2 = 0.375233
+def Learn():
+  v2 = s0 * v2
+  v1 = v2 + v1
+  s1 = s2 * s0
+  s2 = s3 * s1
+  v1 = v0 + v1
+
+
+Complexity: 27 Training Error: 0.640184, Std: 0.131021, Test Error: 0.6991
+def Setup():
+  s2 = s2 - s3
+  s1 = s1 * s3
+  s3 = s0 - s0
+  s1 = s1 - s3
+  s1 = s3 * s2
+def Predict():
+  s2 = 3.86107
+  s3 = -0.926651
+  s1 = s3 * s1
+  v1 = v1 + v0
+  s2 = 0.31837
+def Learn():
+  s3 = s0 - s3
+  s1 = s2 * s3
+  v1 = s1 * v1
+  v1 = s3 * v0
+  v1 = v1 + v1
+
+

@@ -1,0 +1,32 @@
+Total time required: 356.763, first time feasible solution: 6342604
+Complexity: 72, Training Error: 0.00096443, Test Error: 0.00125619
+def Setup():
+  s3 = 0.435113
+  s1 = 1.23807
+  v1 = s1 * v1
+  v1 = s3 * v1
+  s3 = s0 - s3
+  v2 = s0 * v2
+def Predict():
+  s1 = 0.795073
+  s2 = 0.203141
+  v1 = s2 * v0
+  s2 = dot(v2, v1)
+  s1 = s1 * s2
+  v1 = s3 * v1
+  s2 = 0.314505
+  s3 = s1 * s2
+  v1 = s3 * v1
+  s1 = s1 - s3
+def Learn():
+  v2 = v1 + v2
+  s1 = -0.685316
+  s2 = s2 - s1
+  v1 = s2 * v1
+  v2 = v1 + v2
+  v1 = s2 * v2
+  v2 = v0 + v0
+  v2 = s0 * v2
+  s3 = -10.7231
+  v2 = v2 + v1
+
