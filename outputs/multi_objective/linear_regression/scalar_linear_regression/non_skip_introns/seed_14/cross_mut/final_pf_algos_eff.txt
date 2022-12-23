@@ -1,0 +1,226 @@
+def Setup():
+  s2 = -0.14957
+def Predict():
+  v2 = v1 + v2
+  s3 = dot(v0, v2)
+  s1 = 0.188111
+  v1 = s1 * v1
+  s1 = s3 * s1
+def Learn():
+  s3 = s2 * s0
+  s2 = s1 - s0
+  s1 = s3 - s2
+  s2 = s3 * s3
+  v1 = s1 * v0
+
+def Setup():
+def Predict():
+def Learn():
+
+def Setup():
+def Predict():
+  v2 = v1 + v0
+  s1 = dot(v0, v1)
+  s1 = s3 * s1
+  v2 = v2 + v1
+  v1 = s1 * v0
+  s1 = dot(v1, v0)
+  v2 = v1 + v2
+  v1 = s1 * v2
+  v2 = v2 + v1
+  v1 = s3 * v2
+def Learn():
+  s3 = 0.137785
+
+def Setup():
+def Predict():
+  s3 = dot(v0, v2)
+  s1 = 0.0100663
+  s1 = s1 * s3
+def Learn():
+  v1 = s0 * v0
+  v2 = v1 + v2
+
+def Setup():
+def Predict():
+  s3 = dot(v0, v2)
+  v2 = v2 + v1
+  s1 = 0.0115485
+  v1 = s0 * v2
+  s1 = s3 * s1
+def Learn():
+  v1 = s0 * v0
+
+def Setup():
+def Predict():
+  s3 = dot(v0, v2)
+  s3 = s3 - s1
+  v2 = v2 + v1
+  s1 = 0.00656284
+  s1 = s3 * s1
+def Learn():
+  v1 = s0 * v0
+  s1 = -21.3415
+
+def Setup():
+def Predict():
+  v2 = v1 + v2
+  s3 = dot(v0, v2)
+  s1 = s3 * s2
+  s1 = 0.184036
+  s1 = s3 * s1
+def Learn():
+  s3 = s2 * s0
+  s2 = s1 - s0
+  s1 = s3 - s2
+  s2 = s3 * s3
+  v1 = s1 * v0
+
+def Setup():
+def Predict():
+  s3 = 0.0162107
+  s1 = 0.118575
+  s3 = dot(v1, v0)
+  s1 = s3 * s1
+def Learn():
+  s1 = -1.28897
+  s2 = s1 - s0
+  s1 = s0 - s2
+  v1 = s1 * v0
+
+def Setup():
+def Predict():
+  s3 = dot(v0, v2)
+  v2 = v2 + v1
+  s1 = 0.00647277
+  s1 = s3 * s1
+def Learn():
+  v1 = s0 * v0
+
+def Setup():
+def Predict():
+  s1 = 0.188111
+  s3 = s1 - s3
+  s1 = s3 * s1
+def Learn():
+  s3 = 0.0784523
+
+def Setup():
+def Predict():
+  s3 = dot(v0, v2)
+  v2 = v2 + v1
+  v1 = s1 * v0
+  s1 = 0.0115485
+  v1 = s1 * v1
+  v1 = v1 + v1
+  v1 = v1 + v1
+  s1 = s3 * s1
+def Learn():
+  v1 = s0 * v0
+  s1 = 0.086015
+
+def Setup():
+def Predict():
+  v2 = v1 + v0
+  s1 = dot(v0, v0)
+  s1 = s3 * s1
+  v1 = s1 * v1
+  s1 = dot(v1, v0)
+  v1 = s1 * v2
+  v2 = v2 + v1
+  v1 = s3 * v2
+def Learn():
+  s3 = 0.138779
+
+def Setup():
+def Predict():
+  v2 = v1 + v0
+  s1 = dot(v0, v1)
+  s1 = s3 * s1
+  v2 = v2 + v1
+  v1 = s1 * v0
+  s1 = dot(v1, v0)
+  v1 = s1 * v2
+  v2 = v2 + v1
+  v1 = s3 * v2
+def Learn():
+  s3 = 0.138779
+
+def Setup():
+def Predict():
+  v2 = v1 + v0
+  s1 = dot(v0, v1)
+  s1 = s3 * s1
+  v1 = s1 * v0
+  s1 = dot(v1, v0)
+  v2 = v2 + v1
+  v1 = s3 * v2
+def Learn():
+  s3 = 0.138779
+
+def Setup():
+def Predict():
+  v2 = v1 + v0
+  s1 = dot(v0, v1)
+  s1 = s3 * s1
+  v2 = v2 + v1
+  v1 = s3 * v2
+def Learn():
+  s3 = 0.26649
+
+def Setup():
+def Predict():
+  s3 = dot(v0, v2)
+  v2 = v2 + v1
+  v1 = s1 * v0
+  s1 = 0.0115485
+  v1 = s1 * v1
+  v1 = v1 + v1
+  s1 = s3 * s1
+def Learn():
+  v1 = s0 * v0
+  s1 = s0 * s1
+
+def Setup():
+def Predict():
+  v2 = v1 + v0
+  s1 = dot(v0, v1)
+  v1 = s1 * v0
+  v2 = v2 + v1
+  v1 = s3 * v2
+def Learn():
+  s3 = 0.138779
+
+def Setup():
+def Predict():
+  v2 = v1 + v0
+  s1 = dot(v0, v1)
+  s1 = s3 * s1
+  v2 = v2 + v1
+  v1 = s1 * v0
+  s1 = dot(v1, v0)
+  v2 = v1 + v2
+  v1 = s1 * v2
+  v2 = v2 + v1
+  v1 = s3 * v2
+def Learn():
+  s3 = 0.137785
+
+def Setup():
+def Predict():
+  s3 = dot(v0, v2)
+  s1 = 0.0100663
+  s1 = s1 * s3
+def Learn():
+  v1 = s0 * v0
+  v2 = v1 + v2
+
+def Setup():
+def Predict():
+  s1 = dot(v0, v1)
+  s1 = s3 * s1
+  v1 = s3 * v0
+def Learn():
+  s3 = 0.138779
+  s1 = -0.512588
+

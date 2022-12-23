@@ -131,8 +131,8 @@ namespace automl_zero {
                 GetFlag(FLAGS_search_experiment_spec));
 
         IntegerT max_mut = 5;
-        double cross_prob = 0;
-        bool crossover = false;
+        double cross_prob = 0.7;
+        bool crossover = true;
         double max_complexity = 100;
         double max_error = 1;
         double min_complexity = 0;
