@@ -18,6 +18,7 @@
 # ./run_demo.sh <seed>  (set seed to 0 to get a randomly selected seed)
 
 seed=$1
+features=$2
 
 bazel run --sandbox_debug -c opt \
   --copt=-DMAX_SCALAR_ADDRESSES=4 \
@@ -29,8 +30,8 @@ bazel run --sandbox_debug -c opt \
     search_tasks { \
       tasks { \
         scalar_linear_regression_task {} \
-        features_size: 4 \
-        num_train_examples: 100 \
+        features_size: $features \
+        num_train_examples: 1000 \
         num_valid_examples: 100 \
         num_tasks: 10 \
         eval_type: RMS_ERROR \
@@ -63,7 +64,7 @@ bazel run --sandbox_debug -c opt \
   --final_tasks=" \
     tasks { \
       scalar_linear_regression_task {} \
-      features_size: 4 \
+      features_size: $features \
       num_train_examples: 1000 \
       num_valid_examples: 100 \
       num_tasks: 10 \
@@ -78,7 +79,7 @@ bazel run --sandbox_debug -c opt \
   --select_tasks=" \
     tasks { \
       scalar_linear_regression_task {} \
-      features_size: 8 \
+      features_size: $features \
       num_train_examples: 1000 \
       num_valid_examples: 100 \
       num_tasks: 100 \

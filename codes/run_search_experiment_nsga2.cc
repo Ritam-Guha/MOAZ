@@ -134,7 +134,7 @@ namespace automl_zero {
         double cross_prob = 0.7;
         bool crossover = true;
         double max_complexity = 100;
-        double max_error = 1;
+        double max_error = 0.6;
         double min_complexity = 0;
         double min_error = 0;
         IntegerT population_size = experiment_spec.population_size();
@@ -198,10 +198,11 @@ namespace automl_zero {
         double best_error;
         IntegerT first_feasible_error_found;
 
-        // std::vector<IntegerT> population_sizes = {12, 100, 1000, 1500};
-        // for(IntegerT population_size: population_sizes){
+        IntegerT feature_dim = experiment_spec.search_tasks().tasks()[0].features_size();
         std::string cur_output_folder = output_folder + objective_type + "/" + type_problem + "/" + problem_name + "/" +
-                intron_type + "/seed_" + std::to_string(random_seed);
+                intron_type + "/features_" + std::to_string(feature_dim);
+        std::filesystem::create_directory(cur_output_folder);
+        cur_output_folder += "/seed_" + std::to_string(random_seed);
         std::cout << cur_output_folder << std::endl;
         std::filesystem::create_directory(cur_output_folder);
 
@@ -269,8 +270,14 @@ namespace automl_zero {
             best_error = search_algo.GetBestError();
             first_feasible_error_found = search_algo.GetFirstFeasibleError();
 
-            if(first_feasible_error_found == -1)
-                first_time_feasible_soln += evaluator.GetNumEvaluations();
+            if(first_feasible_error_found == -1) {
+                if(num_experiments == max_experiments-1){
+                    first_time_feasible_soln = -1;
+                }
+                else {
+                    first_time_feasible_soln += evaluator.GetNumEvaluations();
+                }
+            }
             else
                 first_time_feasible_soln += first_feasible_error_found;
 
@@ -299,8 +306,8 @@ namespace automl_zero {
 
         // Get the final train set results.
         for(auto it = pf.begin(); it != pf.end(); it++){
-            std::cout << "Error: " << it->second.first[0] << ", Std: " << it->second.first[1] << ", Complexity: " << it->second.second[0] << std::endl;
-            outfile_final_pf_train << it->second.first[0] << ", " << it->second.second[0] << std::endl;
+            std::cout << "Error: " << it->second.first[0] << ", Std: " << it->second.first[1] << ", Complexity: " << compute_complexity(it->first, intron_removal) << std::endl;
+            outfile_final_pf_train << it->second.first[0] << ", " << compute_complexity(it->first, intron_removal=false) << std::endl;
             outfile_final_pf_algos_eff << it->first->ToReadableEffective() << std::endl;
             outfile_final_pf_algos << it->first->ToReadable() << std::endl;
         }
@@ -330,7 +337,7 @@ namespace automl_zero {
             double algorithm_complexity = compute_complexity(it->first, intron_removal);
             // Provide the evaluation metrics on train and test data.
             outfile_prog << "Complexity: " << algorithm_complexity << " Training Error: " << it->second.first[0] << ", Std: " << it->second.first[1] << ", Test Error: " << cur_fitness.first[0] << std::endl;
-            outfile_final_pf_test << cur_fitness.first[0] << ", " << cur_fitness.second[0] << std::endl;
+            outfile_final_pf_test << cur_fitness.first[0] << ", " << compute_complexity(it->first, intron_removal=false) << std::endl;
             std::cout << "Error: " << cur_fitness.first[0] << ", Std: " << cur_fitness.first[1] << ", Complexity: " << cur_fitness.second[0] << std::endl;
             if(intron_removal)
                 outfile_prog << it->first->ToReadableEffective() << std::endl << std::endl;

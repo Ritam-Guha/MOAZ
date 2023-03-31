@@ -1000,6 +1000,7 @@ namespace automl_zero {
       max_abs_error_(max_abs_error),
       num_train_steps_completed_(0),
       type_problem_(problem_type) {
+//          std::cout << algorithm_.ToReadable() << std::endl;
          memory_.Wipe();
          if (SKIP_INTRONS) {
             for (const std::shared_ptr<const Instruction>& instruction :
@@ -1127,6 +1128,12 @@ namespace automl_zero {
             // Run predict component function for this example.
             const Vector<F>& features = train_it->GetFeatures();
             memory_.vector_[kFeaturesVectorAddress] = features;
+//            for(auto i=0; i<features.size(); i++){
+//                std::cout << features[i] << " ";
+//            }
+//            std::cout << std::endl;
+
+
             ZeroLabelAssigner<F>::Assign(&memory_);
             if (SKIP_INTRONS) {
                for (const std::shared_ptr<const Instruction>& instruction :
@@ -1147,6 +1154,8 @@ namespace automl_zero {
 
             // Check whether we should stop early.
             const Scalar& label = train_it->GetLabel();
+//            std:: cout << label << std::endl;
+//            std::cout << memory_.scalar_[kPredictionsScalarAddress] << std::endl;
             const double abs_error = ErrorComputer<F>::Compute(memory_, label);
             if (isnan(abs_error) || abs_error > max_abs_error_) {
                return false;
@@ -1177,6 +1186,7 @@ namespace automl_zero {
                break;  // Reached the end of the dataset.
             }
          }
+//       std::cout << std::endl;
          return true;
       }
 

@@ -33,6 +33,7 @@
 #include "absl/memory/memory.h"
 #include "absl/time/clock.h"
 #include "absl/time/time.h"
+#include "compute_cost_new.h"
 
 namespace automl_zero {
 
@@ -61,7 +62,7 @@ namespace automl_zero {
    RegularizedEvolution::RegularizedEvolution(
          RandomGenerator* rand_gen, const IntegerT population_size,
          const IntegerT tournament_size, const IntegerT progress_every,
-         Generator* generator, Evaluator* evaluator, double feasible_error, Mutator* mutator)
+         Generator* generator, Evaluator* evaluator, double feasible_error, Mutator* mutator, string out_folder)
       : evaluator_(evaluator),
       rand_gen_(rand_gen),
       start_secs_(GetCurrentTimeNanos() / kNanosPerSecond),
@@ -77,10 +78,18 @@ namespace automl_zero {
       algorithms_(population_size_, make_shared<Algorithm>()),
       fitnesses_(population_size_),
       feasible_error_(feasible_error),
+      out_folder_(out_folder),
       num_individuals_(0) {
          best_error_  = std::numeric_limits<double>::infinity();
          first_feasible_error_found_ = -1;
       }
+
+  double compute_complexity(shared_ptr<const Algorithm> algo){
+        double algorithm_complexity = 0.0;
+        algorithm_complexity = ComputeCostNew(algo->setup_) + ComputeCostNew(algo->predict_) + ComputeCostNew(algo->learn_);
+        return algorithm_complexity;
+    }
+
 
    IntegerT RegularizedEvolution::Init() {
       // Otherwise, initialize the population from scratch.
@@ -104,10 +113,18 @@ namespace automl_zero {
                             << std::endl;
         const IntegerT start_nanos = GetCurrentTimeNanos();
         const IntegerT start_train_steps = evaluator_->GetNumTrainStepsCompleted();
+        std::ofstream outfile_hv(out_folder_ + "/hv_exp.txt", std::ios_base::out);
         while (evaluator_->GetNumTrainStepsCompleted() - start_train_steps <
                max_train_steps &&
                GetCurrentTimeNanos() - start_nanos < max_nanos) {
             vector<double>::iterator next_fitness_it = fitnesses_.begin();
+            outfile_hv << evaluator_->GetNumTrainStepsCompleted() << endl;
+            for (shared_ptr<const Algorithm>& next_algorithm : algorithms_) {
+                outfile_hv << compute_complexity(next_algorithm) << ", " << *next_fitness_it << endl;
+                ++next_fitness_it;
+            }
+            outfile_hv << endl;
+            next_fitness_it = fitnesses_.begin();
             for (shared_ptr<const Algorithm>& next_algorithm : algorithms_) {
                 SingleParentSelect(&next_algorithm);
                 mutator_->Mutate(1, &next_algorithm);
@@ -209,8 +226,10 @@ namespace automl_zero {
       const double fitness = evaluator_->EvaluateSingle(*algorithm);
       if(fitness<best_error_){
          best_error_ = fitness;
-         if((first_feasible_error_found_==-1) && (best_error_ < feasible_error_))
-            first_feasible_error_found_ = evaluator_->GetNumEvaluations();
+         if((first_feasible_error_found_==-1) && (best_error_ < feasible_error_)) {
+             std::cout << best_error_ << " " << feasible_error_ << std::endl;
+             first_feasible_error_found_ = evaluator_->GetNumEvaluations();
+         }
       }
       //  cout << "Fitness: " << fitness << endl;
       return fitness;

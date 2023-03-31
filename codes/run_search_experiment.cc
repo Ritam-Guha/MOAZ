@@ -602,7 +602,7 @@ void run(){
     std::string objective_type = "Multi-Objective";
 //    std::string type_problem = "control_tasks";
 //    std::string problem_name = "CartPole";
-     std::string type_problem = "linear_regression";
+     std::string type_problem = "binary_classification";
      std::string problem_name = "scalar_linear_regression";
     bool intron_removal = true;
     std::string output_folder = "/Users/ritz/Necessity/MSU/Research/Projects/Multi-obj_AutoML-Zero/Outputs/";

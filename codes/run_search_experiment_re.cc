@@ -183,7 +183,9 @@ namespace automl_zero {
 
         std::cout << "Random Seed: " << random_seed << std::endl;
 
-        output_folder = output_folder + objective_type + "/" + type_problem + "/" + problem_name + "/" + intron_type;
+        IntegerT feature_dim = experiment_spec.search_tasks().tasks()[0].features_size();
+        output_folder = output_folder + objective_type + "/" + type_problem + "/" + problem_name + "/" + intron_type + "/features_" + std::to_string(feature_dim);
+        std::filesystem::create_directory(output_folder);
         std::string constr_check_file = output_folder + "/constr_check.txt";
         output_folder += "/seed_" + std::to_string(random_seed);
         std::filesystem::create_directory(output_folder);
@@ -226,7 +228,7 @@ namespace automl_zero {
                     &rand_gen, experiment_spec.population_size(),
                     experiment_spec.tournament_size(),
                     experiment_spec.progress_every(),
-                    &generator, &evaluator, sufficient_error, &mutator);
+                    &generator, &evaluator, sufficient_error, &mutator, output_folder);
 
             // Run one experiment.
             search_algo.Init();
@@ -242,8 +244,14 @@ namespace automl_zero {
             best_error = search_algo.GetBestError();
             first_feasible_error_found = search_algo.GetFirstFeasibleError();
 
-            if(first_feasible_error_found == -1)
-                first_time_feasible_soln += evaluator.GetNumEvaluations();
+            if(first_feasible_error_found == -1) {
+                if(num_experiments == max_experiments-1){
+                    first_time_feasible_soln = -1;
+                }
+                else {
+                    first_time_feasible_soln += evaluator.GetNumEvaluations();
+                }
+            }
             else
                 first_time_feasible_soln += first_feasible_error_found;
 

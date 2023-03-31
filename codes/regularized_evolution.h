@@ -47,7 +47,8 @@ class RegularizedEvolution {
       Evaluator* evaluator,
       // The mutator to use to perform all mutations.
       double feasible_error,
-      Mutator* mutator);
+      Mutator* mutator,
+      string out_folder);
   RegularizedEvolution(
       const RegularizedEvolution& other) = delete;
   RegularizedEvolution& operator=(
@@ -122,6 +123,7 @@ class RegularizedEvolution {
   double best_error_;
   double feasible_error_; 
   IntegerT first_feasible_error_found_;
+  string out_folder_;
 
   // Serializable components.
   const IntegerT population_size_;
