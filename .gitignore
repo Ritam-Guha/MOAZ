@@ -1,0 +1,7 @@
+/.idea/
+/bazel-bin/
+/bazel-moaz/
+/bazel-out/
+/bazel-testlogs/
+/cmake-build-debug/
+/Debug/
