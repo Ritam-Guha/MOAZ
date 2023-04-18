@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Multi-obj_AutoML-Zero.iml" filepath="$PROJECT_DIR$/.idea/Multi-obj_AutoML-Zero.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/Multi_obj_AutoML_Zero.iml" filepath="$PROJECT_DIR$/.idea/Multi_obj_AutoML_Zero.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/moaz.iml" filepath="$PROJECT_DIR$/.idea/moaz.iml" />
     </modules>
   </component>
