@@ -1,7 +1,1 @@
-/.idea/
-/bazel-bin/
-/bazel-moaz/
-/bazel-out/
-/bazel-testlogs/
-/cmake-build-debug/
-/Debug/
+/home/ritz/projects/coin_lab/Research_Directions/AutoML/moaz/.gitignore
